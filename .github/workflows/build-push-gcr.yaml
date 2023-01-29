@@ -8,9 +8,9 @@ on:
 
 env:
   # Change this section according to your needs
-  IMAGE_NAME:   globalstreams-to-sql
-  SERVICE:      globalstreams-to-sql
-  DOMAIN_NAME:  globalstreams-to-sql.demo.community.intersystems.com
+  IMAGE_NAME:   json-to-global
+  SERVICE:      json-to-global
+  DOMAIN_NAME:  json-to-global.demo.community.intersystems.com
 
   # Leave this section untouched
   PROJECT_ID:   iris-community-demos
