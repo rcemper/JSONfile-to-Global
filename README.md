@@ -44,7 +44,7 @@ USER>write ##class(rcc.jstog).stream(jsonstream,"^jsstr")
 and from file it is this method:
 ```
 USER>set filename="/opt/irisbuild/src/data/big6.json"
-USER>write ##class(rcc.jstog).file(filename)  ; using default gloabel ^jsom
+USER>write ##class(rcc.jstog).file(filename)  ; using default global ^jsom
 1
 USER>
 ```
@@ -66,7 +66,7 @@ log in to command line or use [Webterminal](http://localhost:42773/terminal/)
 docker-compose exec iris iris session iris
 ```
 2 test files are available   
-- /opt/irisbuild/src/data/demo.json  ~1kB 
+- /opt/irisbuild/src/data/demo.json  ~1kB     
 ![](https://community.intersystems.com/sites/default/files/inline/images/demo.jpg)  
 - /opt/irisbuild/src/data/big6.json  ~6GB  
 this file is composed from the anonymized results of AOC2022 contest   
