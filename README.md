@@ -68,7 +68,8 @@ docker-compose exec iris iris session iris
 2 test files are available   
 - /opt/irisbuild/src/data/demo.json  ~1kB     
 ![](https://community.intersystems.com/sites/default/files/inline/images/demo.jpg)  
-- /opt/irisbuild/src/data/big6.json  ~6GB  
+- /opt/irisbuild/src/data/big6.json  ~6GB 
+![](https://community.intersystems.com/sites/default/files/inline/images/big6.jpg)  
 this file is composed from the anonymized results of AOC2022 contest   
 ```
 USER>......< your choice  > ....."
