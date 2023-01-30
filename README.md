@@ -36,15 +36,15 @@ USER>zzjson jsn
 }
 USER>
 ```
-from an already existing Stream it's like this    
-´´´ 
+   from an already existing Stream it's like this    
+```
 USER>write ##class(rcc.jstog).stream(jsonstream,"^jsstr")
 1
-´´´
-and from file it is this method:
+```
+  and from file it is this method:
 ```
 USER>set filename="/opt/irisbuild/src/data/big6.json"
-USER>write ##class(rcc.jstog).file(filename)  ; using default global ^jsom
+USER>write ##class(rcc.jstog).file(filename)  ; using default global ^json
 1
 USER>
 ```
@@ -70,7 +70,8 @@ docker-compose exec iris iris session iris
 ![](https://community.intersystems.com/sites/default/files/inline/images/demo.jpg)  
 - /opt/irisbuild/src/data/big6.json  ~6GB 
 ![](https://community.intersystems.com/sites/default/files/inline/images/big6.jpg)  
-this file is composed from the anonymized results of AOC2022 contest   
+this file is composed from the anonymized results of AOC2022 contest  
+
 ```
 USER>......< your choice  > ....."
 USER>kill ^json ; using default global ^json  
