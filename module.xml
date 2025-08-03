@@ -4,10 +4,11 @@
     <Module>
       <Name>jsonfile-to-global</Name>
 	  <Description>Load JSON from file or stream or string to Global</Description> 
-      <Version>0.0.1</Version>
+      <Version>0.0.3</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="rcc.PKG"/>
     </Module>
   </Document>
 </Export>
+
