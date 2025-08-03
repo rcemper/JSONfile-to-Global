@@ -61,7 +61,7 @@ Run the IRIS container with your project:
 docker-compose up -d --build
 ```
 ## How to Test it
-log in to command line or use [Webterminal](http://localhost:42773/terminal/)   
+log in to command line or use [iterm(http://localhost:42773/iterm/)   
 ```
 docker-compose exec iris iris session iris
 ```
@@ -86,4 +86,5 @@ USER ZWRITE ^json
 
 [Online Demo](https://jsonfile-to-global.demo.community.intersystems.com/csp/sys/UtilHome.csp)   
 [Online Terminal](https://jsonfile-to-global.demo.community.intersystems.com/terminal/)   
+
 
